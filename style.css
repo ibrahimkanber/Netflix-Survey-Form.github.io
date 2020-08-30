@@ -1,0 +1,99 @@
+    body {
+        background-image: url("netflix-survey.jpg");
+        display: grid;
+        place-items: center;
+        padding: 0px;
+    }
+    
+    #title {
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        color: white;
+        transform-origin: center;
+        transform: scaleX(89.2) rotateY(88.9deg);
+    }
+    
+    span {
+        color: red;
+    }
+    
+    small {
+        margin-left: 0px;
+    }
+    
+    #description {
+        text-align: center;
+        font-size: 23px;
+        font-family: "Sorts Mill Goudy", sans-serif;
+        color: white;
+        transform: scaleX(81) rotateY(89.2deg);
+    }
+    
+    .container {
+        margin-top: 15px;
+        width: 95%;
+        height: inherit;
+        background-color: rgba(12, 12, 11, 0.5);
+    }
+    
+    form {
+        margin: 30px auto 0px;
+        padding: 40px;
+        width: 500px;
+        height: 810px;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+    }
+    
+    .box {
+        margin-top: 17px;
+        color: white;
+    }
+    
+    .box1 {
+        margin-top: 0px;
+    }
+    
+    #name,
+    #age,
+    #email,
+    #content {
+        width: 400px;
+        height: 47px;
+        margin-top: 15px;
+    }
+    
+    #content {
+        height: 40px;
+    }
+    
+    .label {
+        margin-left: 3px;
+    }
+    
+    .box8 {
+        margin-top: 10px;
+        width: 400px;
+        display: grid;
+        place-items: center;
+        margin-left: 0px;
+    }
+    
+    button {
+        width: 200px;
+        height: 47px;
+        border-radius: 30px;
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        border: none;
+    }
+    
+    button:hover {
+        background-color: white;
+        color: red;
+        border: none;
+    }
