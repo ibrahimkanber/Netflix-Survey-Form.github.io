@@ -8,7 +8,7 @@
     #title {
         margin-bottom: 5px;
         text-align: center;
-        font-size: 60px;
+        font-size: 7vh;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         letter-spacing: 1px;
         color: white;
@@ -26,26 +26,31 @@
     
     #description {
         text-align: center;
-        font-size: 23px;
+        font-size: 2.2vh;
         font-family: "Sorts Mill Goudy", sans-serif;
         color: white;
         transform: scaleX(81) rotateY(89.2deg);
+        width: 20rem;
+        
+        margin: auto;
     }
     
     .container {
         margin-top: 15px;
         width: 95%;
-        height: inherit;
         background-color: rgba(12, 12, 11, 0.5);
+        overflow: hidden;
     }
     
     form {
         margin: 30px auto 0px;
         padding: 40px;
-        width: 500px;
-        height: 810px;
+        width: 30%;
+        height: 85%;
         background-color: rgba(0, 0, 0, 0.8);
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
     }
     
     .box {
@@ -61,8 +66,8 @@
     #age,
     #email,
     #content {
-        width: 400px;
-        height: 47px;
+        width: 100%;
+        height: 2.7rem;
         margin-top: 15px;
     }
     
@@ -76,15 +81,17 @@
     
     .box8 {
         margin-top: 10px;
-        width: 400px;
+        width: 100%;
+        height: 2.7rem;
         display: grid;
         place-items: center;
         margin-left: 0px;
+       
     }
     
     button {
-        width: 200px;
-        height: 47px;
+        width: 50%;
+        height: 100%;
         border-radius: 30px;
         background-color: red;
         color: white;
@@ -96,4 +103,17 @@
         background-color: white;
         color: red;
         border: none;
+    }
+    
+    @media (max-width:768px) {
+        form {
+            width: 95%;
+            height: fit-content;
+        }
+        form>div {
+            height: 5%
+        }
+        #description {
+            width: 10rem;
+        }
     }
