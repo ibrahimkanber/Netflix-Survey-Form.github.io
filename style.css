@@ -78,6 +78,8 @@
     .label {
         margin-left: 3px;
     }
+
+
     
     .box8 {
         margin-top: 10px;
@@ -86,7 +88,7 @@
         display: grid;
         place-items: center;
         margin-left: 0px;
-       
+      
     }
     
     button {
@@ -115,5 +117,10 @@
         }
         #description {
             width: 10rem;
+        }
+        .box7{
+            padding-right: 5px;
+
+            overflow: hidden;
         }
     }
